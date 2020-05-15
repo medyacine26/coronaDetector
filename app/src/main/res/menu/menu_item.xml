@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+
+
+<group android:checkableBehavior="all" android:id="@+id/mapGroup">
+
+
+            <item android:title="World Map" android:id="@+id/worldmap" android:icon="@drawable/worldmap1"  android:visible="true" />
+            <item android:title="World Statistic" android:id="@+id/stat" android:icon="@drawable/statistic3" android:visible="true"/>
+</group>
+    <group android:checkableBehavior="all"  android:id="@+id/xrayGroup">
+                <item android:title="X-Ray Analysis" android:id="@+id/xray" android:icon="@drawable/xray"  android:visible="true"/>
+    </group>
+    <group android:checkableBehavior="all"  android:id="@+id/tempGroup">
+
+                <item android:title="Temperature " android:id="@+id/temp" android:icon="@drawable/temperature" android:visible="true"/>
+
+    </group>
+
+    <group android:checkableBehavior="all" android:id="@+id/formGroup">
+                <item android:title="Form" android:id="@+id/form" android:icon="@drawable/form3" android:visible="true"/>
+
+    </group>
+<group android:checkableBehavior="all"  android:id="@+id/homeAboutGroup">
+    <item android:title="Home Page" android:id="@+id/homepage" android:icon="@drawable/home3" android:visible="true"/>
+
+            <item android:title="About Us" android:id="@+id/about" android:icon="@drawable/about" android:visible="true"/>
+
+</group>
+
+
+
+
+</menu>

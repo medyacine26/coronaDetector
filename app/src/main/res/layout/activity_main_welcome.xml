@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/corna"
+        android:layout_marginTop="20dp"
+      android:layout_gravity="center"
+        />
+<TextView
+    android:id="@+id/welcome"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="WELCOME !"
+  android:layout_marginTop="10dp"
+    android:textSize="25dp"
+    android:textColor="#3f3f3f"
+    android:layout_gravity="center"
+    />
+    <TextView
+        android:id="@+id/desctxt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/wlc_desc"
+        android:textSize="15dp"
+       android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="3dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/getstarted"
+        android:background="@drawable/button"
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:text="GET STARTED"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
